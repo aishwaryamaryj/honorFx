@@ -1,0 +1,506 @@
+.App {
+  text-align: center;
+}
+
+/* common css */
+
+/* margins */
+
+.m-0 {
+  margin: 0px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+/* padding */
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pr-30 {
+  padding-right: 60px;
+}
+
+.pb-0 {
+  margin-bottom: 0px !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+/* font size */
+
+.font-16 {
+  font-size: 18px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-42 {
+  font-size: 42px;
+}
+
+/* font weight */
+
+.font500 {
+  font-weight: 500;
+}
+
+.font600 {
+  font-weight: 600 !important;
+}
+
+.font700 {
+  font-weight: 700;
+}
+
+.font800 {
+  font-weight: 800;
+}
+
+/* text color */
+
+.orangeHeadText {
+  color: #ff6c27;
+}
+
+.whiteText {
+  color: #fff;
+}
+
+.blueText {
+  color: #16223b !important;
+}
+
+.greyText {
+  color: #999;
+  font-size: 18px;
+}
+
+/* common properties */
+
+.block {
+  display: block;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+/* main and secondary header */
+
+.mainHeader {
+  padding: 20px 0px 20px 0px;
+}
+
+.headerContainer {
+  margin: auto;
+}
+
+.secondaryHeader {
+  padding: 20px 0px 20px 0px;
+}
+
+.outlinedBtnStyle {
+  border: 1px solid #ff6c27 !important;
+  color: #ff6c27 !important;
+  font-size: 16px;
+  min-width: 130px !important;
+}
+
+.outlinedBlueBtnStyle {
+  border: 1px solid #16223b !important;
+  color: #16223b !important;
+  font-size: 16px;
+  min-width: 200px !important;
+}
+
+.contained200BtnStyle {
+  border: 1px solid #ff6c27 !important;
+  font-size: 16px;
+  min-width: 200px !important;
+  background: #ee743b !important;
+  color: #fff !important;
+}
+
+.containedBtnStyle {
+  border: 1px solid #ff6c27 !important;
+  font-size: 16px;
+  min-width: 130px !important;
+  background: #ee743b !important;
+  color: #fff !important;
+}
+
+.containedBigBtnStyle {
+  border: 1px solid #ff6c27 !important;
+  font-size: 21px !important;
+  min-width: 300px !important;
+  padding: 15px 0px 15px 0px !important;
+  background: #ee743b !important;
+  color: #fff !important;
+}
+
+.menuStyleFirst {
+  border-right: 1px solid #16223b !important;
+  border-left: 1px solid #fff !important;
+  border-top: 1px solid #fff !important;
+  border-bottom: 1px solid #fff !important;
+  color: #16223b !important;
+  font-weight: 600 !important;
+  padding-right: 20px !important;
+  font-size: 16px;
+  min-width: 130px;
+}
+
+.menuStyle {
+  border-right: 1px solid #16223b !important;
+  border-left: 1px solid #fff !important;
+  border-top: 1px solid #fff !important;
+  border-bottom: 1px solid #fff !important;
+  color: #16223b !important;
+  font-weight: 600 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-size: 16px;
+  min-width: 130px;
+}
+
+.menuStyle:hover,
+.menuStyleLast:hover,
+.menuStyleFirst:hover {
+  color: #ff6c27 !important;
+}
+
+.menuStyleLast {
+  color: #16223b !important;
+  border: none !important;
+  padding-left: 20px !important;
+  font-weight: 600 !important;
+  font-size: 16px;
+  min-width: 130px;
+  padding-right: 20px !important;
+}
+
+/* carousel styles */
+
+.carouselLayout {
+  background: url("https://www.honorfx.com/assets/images/bg-11.svg") no-repeat
+    right;
+  height: 589px !important;
+  overflow: hidden;
+  background-color: #e6e9ee;
+}
+
+.carouselImgStyle {
+  height: 500px;
+  object-fit: fill !important;
+}
+
+.carouselTextWrap {
+  background-color: #e6e9ee;
+}
+
+.carouselLayoutWrapper {
+  background: #e7e9ef;
+}
+
+/* welcome section */
+
+.welcomeText {
+  font-size: 42px;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.featuresContainer {
+  padding: 120px 0px 137px 0px;
+}
+
+.featureCard {
+  padding: 50px 10px 0px 10px;
+  height: 290px;
+}
+
+.featureValueCircle {
+  color: #fff;
+  background-color: #ff6c27;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureText {
+  color: #16223b;
+  font-size: 22px;
+  padding-top: 2px;
+  font-weight: 700;
+}
+
+.featureTextSmall {
+  font-size: 14px;
+}
+
+.featureCardContainer {
+  margin: auto;
+}
+
+/* start trade section */
+
+.startTradeSec {
+  padding-top: 63px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: url("https://www.honorfx.com/assets/images/bg-4.jpg") no-repeat
+    center/cover;
+}
+
+.whiteHeadText {
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+}
+
+/* account section */
+
+.accountSecContainer {
+  padding: 50px 0px 80px 0px;
+}
+
+.accountTextArea {
+  max-width: 812px;
+  margin: auto;
+}
+
+.accountsCardContainer {
+  margin: 30px 0px 45px 0px;
+}
+
+.accountCard {
+  border-radius: 8px;
+  min-width: 426px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.accountCardHead {
+  height: 139px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.standard {
+  background: url("https://www.honorfx.com/assets/images/account-vector-bg-1.svg")
+      no-repeat center/cover,
+    linear-gradient(90deg, rgb(34, 132, 200), rgb(17, 39, 72) 100%);
+  box-shadow: 7px 7px 10px #0c609a4d;
+}
+
+.premium {
+  background: url("https://www.honorfx.com/assets/images/account-vector-bg-1.svg")
+      no-repeat center/cover,
+    linear-gradient(90deg, rgb(233, 92, 43), rgb(245, 144, 79) 100%);
+  box-shadow: 7px 7px 10px #ee743b38;
+}
+
+.ecn {
+  background: url("https://www.honorfx.com/assets/images/account-vector-bg-1.svg")
+      no-repeat center/cover,
+    linear-gradient(90deg, rgb(17, 39, 72), rgb(14, 26, 44) 100%);
+  box-shadow: 7px 7px 10px #0c609a4d;
+}
+
+.upperAccountText {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+
+.accountDetailWrapper {
+  padding: 0px 50px 0px 50px;
+  margin-bottom: 25px;
+}
+
+/* platforn section */
+
+.platformContainer {
+  background: #16223b url("https://www.honorfx.com/assets/images/bg-12.png")
+    no-repeat;
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.platformcard {
+  border-radius: 23px;
+  margin: 0 10px 15px 10px;
+  padding: 50px 35px 30px 80px;
+  background: url("https://www.honorfx.com/assets/images/our-platform-right.svg")
+      no-repeat bottom left,
+    linear-gradient(180deg, #374564 0, #222f4d 100%);
+}
+
+.platformImg {
+  height: 100%;
+  object-fit: fill;
+}
+
+.platformListWrap {
+  padding: 0px 0px 0px 20px;
+  line-height: 30px;
+}
+
+.platformCardFooter {
+  height: 80px;
+}
+
+/* why honor fx container */
+
+.honorSpecsWrapper {
+  margin-top: 60px;
+}
+
+.specsCard {
+  padding: 20px;
+  height: 230px;
+}
+
+.specsImageStyle {
+  height: 130px;
+  width: 120px;
+  margin: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.tradeCard {
+  padding: 50px 80px 60px 50px;
+  min-height: 380px;
+  font-size: 18px;
+  position: relative;
+  margin-right: 10px;
+  margin: auto;
+}
+
+.tradeCard:nth-child(1):before {
+  background: #000;
+}
+
+.tradeCard:nth-child(2):before {
+  background: #ff6c27;
+}
+
+.tradeCard:nth-child(3):before {
+  background: #f7a823;
+}
+
+.tradeCard:nth-child(4):before {
+  background: #ffb795;
+}
+
+.tradeCard:before {
+  position: absolute;
+  display: block;
+  background: red;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  content: "";
+  margin-right: 10px !important;
+}
+
+.tradeCardHead {
+  line-height: 26px;
+  height: 100%;
+}
+
+/* media queries */
+
+@media (min-width: 1400px) {
+  .headerContainer,
+  .featureCardContainer {
+    max-width: 1320px;
+  }
+
+  .carouselTextWrap {
+    max-width: 320px !important;
+  }
+  .carouselLayout {
+    /* max-width: 1320px; */
+  }
+}
